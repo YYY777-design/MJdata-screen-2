@@ -389,12 +389,17 @@
                   <!-- 高互动（数值在媒体名称下方；每行5个，不折行） -->
                   <div class="tab-pane show active" id="tab-interact" style="height: 100%;">
                     <div class="container-fluid px-0" style="height: 100%;">
-                      <div class="row hot-grid no-wrap mr-0 ml-0" style="height: 100%;">
+                      <!-- 第一组：排名1-5 -->
+                      <div class="row hot-grid no-wrap mr-0 ml-0 rank-group" data-group="1" style="height: 100%;">
                         <!-- 1 -->
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">看点</div>
+                              </div>
+                              <div class="card-number">1</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康...</div>
                             <div class="metric-row">
@@ -408,7 +413,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">抖音｜看看新闻Knews</div>
+                              <div class="src">
+                                <div class="media-name">抖音</div>
+                                <div class="media-tag">看看新闻Knews</div>
+                              </div>
+                              <div class="card-number">2</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康...</div>
                             <div class="metric-row">
@@ -422,7 +431,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">抖音｜《电商》杂志社</div>
+                              <div class="src">
+                                <div class="media-name">抖音</div>
+                                <div class="media-tag">《电商》杂志社</div>
+                              </div>
+                              <div class="card-number">3</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康...</div>
                             <div class="metric-row">
@@ -436,7 +449,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">辽宁北斗云数字科技｜中国新闻网</div>
+                              <div class="src">
+                                <div class="media-name">辽宁北斗云数字科技</div>
+                                <div class="media-tag">中国新闻网</div>
+                              </div>
+                              <div class="card-number">4</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康...</div>
                             <div class="metric-row">
@@ -450,12 +467,110 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">抖音｜看点</div>
+                              <div class="src">
+                                <div class="media-name">抖音</div>
+                                <div class="media-tag">看点</div>
+                              </div>
+                              <div class="card-number">5</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康...</div>
                             <div class="metric-row">
                               <div class="metric"><i class="m-link"></i>12k</div>
                               <div class="metric"><i class="m-like"></i>13k</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- 第二组：排名6-10 -->
+                      <div class="row hot-grid no-wrap mr-0 ml-0 rank-group" data-group="2" style="height: 100%; display: none;">
+                        <!-- 6 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">腾讯新闻</div>
+                                <div class="media-tag">热点</div>
+                              </div>
+                              <div class="card-number">6</div>
+                            </div>
+                            <div class="title">爱康国宾事件持续发酵，专家解读医疗纠纷处理机制</div>
+                            <div class="metric-row">
+                              <div class="metric"><i class="m-link"></i>10k</div>
+                              <div class="metric"><i class="m-cmt"></i>8k</div>
+                              <div class="metric"><i class="m-like"></i>11k</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">网易新闻</div>
+                                <div class="media-tag">社会</div>
+                              </div>
+                              <div class="card-number">7</div>
+                            </div>
+                            <div class="title">律师行业关注度提升，医疗纠纷案件处理流程详解</div>
+                            <div class="metric-row">
+                              <div class="metric"><i class="m-link"></i>9k</div>
+                              <div class="metric"><i class="m-cmt"></i>7k</div>
+                              <div class="metric"><i class="m-like"></i>9k</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 8 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">凤凰网</div>
+                                <div class="media-tag">资讯</div>
+                              </div>
+                              <div class="card-number">8</div>
+                            </div>
+                            <div class="title">爱康国宾回应质疑，称将积极配合相关部门调查</div>
+                            <div class="metric-row">
+                              <div class="metric"><i class="m-link"></i>8k</div>
+                              <div class="metric"><i class="m-cmt"></i>6k</div>
+                              <div class="metric"><i class="m-like"></i>8k</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">澎湃新闻</div>
+                                <div class="media-tag">深度</div>
+                              </div>
+                              <div class="card-number">9</div>
+                            </div>
+                            <div class="title">医疗体检行业监管现状分析，专家呼吁完善制度</div>
+                            <div class="metric-row">
+                              <div class="metric"><i class="m-link"></i>7k</div>
+                              <div class="metric"><i class="m-cmt"></i>5k</div>
+                              <div class="metric"><i class="m-like"></i>7k</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 10 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">今日头条</div>
+                                <div class="media-tag">热门</div>
+                              </div>
+                              <div class="card-number">10</div>
+                            </div>
+                            <div class="title">消费者权益保护法解读，如何维护自身合法权益</div>
+                            <div class="metric-row">
+                              <div class="metric"><i class="m-link"></i>6k</div>
+                              <div class="metric"><i class="m-cmt"></i>4k</div>
+                              <div class="metric"><i class="m-like"></i>6k</div>
                             </div>
                           </div>
                         </div>
@@ -466,12 +581,17 @@
                   <!-- 高评论（每行5个，不折行） -->
                   <div class="tab-pane" id="tab-comment" style="display:none; height: 100%;">
                     <div class="container-fluid px-0" style="height: 100%;">
-                      <div class="row hot-grid no-wrap mr-0 ml-0" style="height: 100%;">
+                      <!-- 第一组：排名1-5 -->
+                      <div class="row hot-grid no-wrap mr-0 ml-0 rank-group" data-group="1" style="height: 100%;">
                         <!-- 1 -->
                         <div class="col-1-5">
                           <div class="rank-card position-relative">
                             <div class="d-flex align-items-center">
-                              <div class="src">抖音｜《电商》杂志社</div>
+                              <div class="src">
+                                <div class="media-name">抖音</div>
+                                <div class="media-tag">《电商》杂志社</div>
+                              </div>
+                              <div class="card-number">1</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -483,7 +603,11 @@
                         <div class="col-1-5">
                           <div class="rank-card position-relative">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">2</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -495,7 +619,11 @@
                         <div class="col-1-5">
                           <div class="rank-card position-relative">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪财经头条号｜证券时报网</div>
+                              <div class="src">
+                                <div class="media-name">新浪财经头条号</div>
+                                <div class="media-tag">证券时报网</div>
+                              </div>
+                              <div class="card-number">3</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -507,7 +635,11 @@
                         <div class="col-1-5">
                           <div class="rank-card position-relative">
                             <div class="d-flex align-items-center">
-                              <div class="src">抖音｜看看新闻Knews</div>
+                              <div class="src">
+                                <div class="media-name">抖音</div>
+                                <div class="media-tag">看看新闻Knews</div>
+                              </div>
+                              <div class="card-number">4</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -519,11 +651,99 @@
                         <div class="col-1-5">
                           <div class="rank-card position-relative">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪看点｜新闻眼</div>
+                              <div class="src">
+                                <div class="media-name">新浪看点</div>
+                                <div class="media-tag">新闻眼</div>
+                              </div>
+                              <div class="card-number">5</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
                               <div class="metric">评论量：123456</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- 第二组：排名6-10 -->
+                      <div class="row hot-grid no-wrap mr-0 ml-0 rank-group" data-group="2" style="height: 100%; display: none;">
+                        <!-- 6 -->
+                        <div class="col-1-5">
+                          <div class="rank-card position-relative">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">界面新闻</div>
+                                <div class="media-tag">财经</div>
+                              </div>
+                              <div class="card-number">6</div>
+                            </div>
+                            <div class="title">医疗纠纷案件频发，律师行业面临新挑战与机遇</div>
+                            <div class="metric-row">
+                              <div class="metric">评论量：98765</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="col-1-5">
+                          <div class="rank-card position-relative">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">虎嗅</div>
+                                <div class="media-tag">商业</div>
+                              </div>
+                              <div class="card-number">7</div>
+                            </div>
+                            <div class="title">体检行业监管升级，爱康国宾事件引发行业反思</div>
+                            <div class="metric-row">
+                              <div class="metric">评论量：87654</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 8 -->
+                        <div class="col-1-5">
+                          <div class="rank-card position-relative">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">新京报</div>
+                                <div class="media-tag">社会</div>
+                              </div>
+                              <div class="card-number">8</div>
+                            </div>
+                            <div class="title">消费者权益保护新规解读，医疗纠纷处理流程优化</div>
+                            <div class="metric-row">
+                              <div class="metric">评论量：76543</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="col-1-5">
+                          <div class="rank-card position-relative">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">杭州日报</div>
+                                <div class="media-tag">本地</div>
+                              </div>
+                              <div class="card-number">9</div>
+                            </div>
+                            <div class="title">本地医疗体检机构加强监管，确保服务质量</div>
+                            <div class="metric-row">
+                              <div class="metric">评论量：65432</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 10 -->
+                        <div class="col-1-5">
+                          <div class="rank-card position-relative">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">广州日报</div>
+                                <div class="media-tag">民生</div>
+                              </div>
+                              <div class="card-number">10</div>
+                            </div>
+                            <div class="title">医疗体检行业标准化建设，提升服务质量与安全</div>
+                            <div class="metric-row">
+                              <div class="metric">评论量：54321</div>
                             </div>
                           </div>
                         </div>
@@ -534,12 +754,17 @@
                   <!-- 高扩散（每行5个，不折行） -->
                   <div class="tab-pane" id="tab-spread" style="display:none; height: 100%;">
                     <div class="container-fluid px-0" style="height: 100%;">
-                      <div class="row hot-grid no-wrap mr-0 ml-0" style="height: 100%;">
+                      <!-- 第一组：排名1-5 -->
+                      <div class="row hot-grid no-wrap mr-0 ml-0 rank-group" data-group="1" style="height: 100%;">
                         <!-- 1 -->
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">1</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -551,7 +776,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">2</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -563,7 +792,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">3</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -575,7 +808,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">4</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -587,11 +824,99 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">5</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
                               <div class="metric">扩散量：1.11亿</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- 第二组：排名6-10 -->
+                      <div class="row hot-grid no-wrap mr-0 ml-0 rank-group" data-group="2" style="height: 100%; display: none;">
+                        <!-- 6 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">搜狐号</div>
+                                <div class="media-tag">科技</div>
+                              </div>
+                              <div class="card-number">6</div>
+                            </div>
+                            <div class="title">医疗体检行业数字化转型，AI技术助力提升服务质量</div>
+                            <div class="metric-row">
+                              <div class="metric">扩散量：9876万</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">百家号</div>
+                                <div class="media-tag">健康</div>
+                              </div>
+                              <div class="card-number">7</div>
+                            </div>
+                            <div class="title">体检报告解读指南，如何正确理解各项指标</div>
+                            <div class="metric-row">
+                              <div class="metric">扩散量：8765万</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 8 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">网易号</div>
+                                <div class="media-tag">生活</div>
+                              </div>
+                              <div class="card-number">8</div>
+                            </div>
+                            <div class="title">健康体检的重要性，定期体检预防疾病</div>
+                            <div class="metric-row">
+                              <div class="metric">扩散量：7654万</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">今日头条</div>
+                                <div class="media-tag">资讯</div>
+                              </div>
+                              <div class="card-number">9</div>
+                            </div>
+                            <div class="title">医疗纠纷处理流程，消费者维权指南</div>
+                            <div class="metric-row">
+                              <div class="metric">扩散量：6543万</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 10 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">小红书</div>
+                                <div class="media-tag">分享</div>
+                              </div>
+                              <div class="card-number">10</div>
+                            </div>
+                            <div class="title">体检经验分享，如何选择合适的体检套餐</div>
+                            <div class="metric-row">
+                              <div class="metric">扩散量：5432万</div>
                             </div>
                           </div>
                         </div>
@@ -602,12 +927,17 @@
                   <!-- 高粉丝（每行5个，不折行） -->
                   <div class="tab-pane" id="tab-fans" style="display:none; height: 100%;">
                     <div class="container-fluid px-0" style="height: 100%;">
-                      <div class="row hot-grid no-wrap mr-0 ml-0" style="height: 100%;">
+                      <!-- 第一组：排名1-5 -->
+                      <div class="row hot-grid no-wrap mr-0 ml-0 rank-group" data-group="1" style="height: 100%;">
                         <!-- 1 -->
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">1</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -619,7 +949,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">2</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -631,7 +965,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">3</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -643,7 +981,11 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">4</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
@@ -655,11 +997,99 @@
                         <div class="col-1-5">
                           <div class="rank-card">
                             <div class="d-flex align-items-center">
-                              <div class="src">新浪｜新浪看点</div>
+                              <div class="src">
+                                <div class="media-name">新浪</div>
+                                <div class="media-tag">新浪看点</div>
+                              </div>
+                              <div class="card-number">5</div>
                             </div>
                             <div class="title">爱康国宾向患癌女律师索赔1000万，患癌女律师回应爱康国宾索赔千万：已向法院提出...</div>
                             <div class="metric-row">
                               <div class="metric">粉丝量：1.11亿</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- 第二组：排名6-10 -->
+                      <div class="row hot-grid no-wrap mr-0 ml-0 rank-group" data-group="2" style="height: 100%; display: none;">
+                        <!-- 6 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">知乎</div>
+                                <div class="media-tag">问答</div>
+                              </div>
+                              <div class="card-number">6</div>
+                            </div>
+                            <div class="title">医疗体检行业现状分析，专家解读行业发展趋势</div>
+                            <div class="metric-row">
+                              <div class="metric">粉丝量：9876万</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">微博用户</div>
+                                <div class="media-tag">个人</div>
+                              </div>
+                              <div class="card-number">7</div>
+                            </div>
+                            <div class="title">体检经历分享，如何选择靠谱的体检机构</div>
+                            <div class="metric-row">
+                              <div class="metric">粉丝量：8765万</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 8 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">个人博客</div>
+                                <div class="media-tag">原创</div>
+                              </div>
+                              <div class="card-number">8</div>
+                            </div>
+                            <div class="title">健康管理的重要性，从体检开始关注身体健康</div>
+                            <div class="metric-row">
+                              <div class="metric">粉丝量：7654万</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">自媒体号</div>
+                                <div class="media-tag">专业</div>
+                              </div>
+                              <div class="card-number">9</div>
+                            </div>
+                            <div class="title">体检报告解读技巧，了解自己的身体状况</div>
+                            <div class="metric-row">
+                              <div class="metric">粉丝量：6543万</div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 10 -->
+                        <div class="col-1-5">
+                          <div class="rank-card">
+                            <div class="d-flex align-items-center">
+                              <div class="src">
+                                <div class="media-name">论坛用户</div>
+                                <div class="media-tag">讨论</div>
+                              </div>
+                              <div class="card-number">10</div>
+                            </div>
+                            <div class="title">医疗纠纷案例分析，消费者权益保护指南</div>
+                            <div class="metric-row">
+                              <div class="metric">粉丝量：5432万</div>
                             </div>
                           </div>
                         </div>
@@ -1219,7 +1649,7 @@
           emphasis:{ itemStyle:{ borderWidth:4 } },
           markPoint: {
             symbol: 'pin',
-            symbolSize: 50,
+            symbolSize: [65, 50],
             data: [
               {
                 type: 'max',
@@ -1229,7 +1659,7 @@
                   formatter: `${maxValue}`,
                   color: '#fff',
                   fontWeight: 'bold',
-                  fontSize: 12,
+                  fontSize: 11,
                   padding: [2, 4]
                 }
               },
@@ -1238,11 +1668,12 @@
                 name: '当天',
                 itemStyle: { color: orange },
                 label: {
-                  formatter: `${todayValue}`,
+                  formatter: `今\n${todayValue}`,
                   color: '#fff',
                   fontWeight: 'bold',
-                  fontSize: 12,
-                  padding: [2, 4]
+                  fontSize: 11,
+                  padding: [2, 4],
+                  lineHeight: 12
                 }
               }
             ]
@@ -1369,11 +1800,12 @@
                name: '当天',
                itemStyle: { color: orange },
                label: {
-                 formatter: `${todayValue}`,
+                 formatter: `今\n${todayValue}`,
                  color: '#fff',
                  fontWeight: 'bold',
                  fontSize: 12,
-                 padding: [2, 4]
+                 padding: [2, 4],
+                 lineHeight: 14
                }
              });
            }
@@ -1823,7 +2255,7 @@
       const maxTotalIndex = accountTotal.indexOf(maxTotal);
       const accountChart = echarts.init(document.getElementById('account-trend-chart'));
       const option = {
-        grid:{ left:'12%', right:17, top:50, bottom:28 },
+        grid:{ left:'14%', right:17, top:50, bottom:28 },
         legend: {
           data: ['账号数量', '账号总量'],
           top: 0,
@@ -1930,7 +2362,7 @@
                   name: '当天',
                   itemStyle: { color: color1, opacity: 0.8 },
                   label: {
-                    formatter: `${todayCount}`,
+                    formatter: `今\n${todayCount}`,
                     color: '#fff',
                     fontWeight: 'bold',
                     fontSize: 10,
@@ -1979,7 +2411,7 @@
                   name: '当天',
                   itemStyle: { color: color2, opacity: 0.8 },
                   label: {
-                    formatter: `${todayTotal}`,
+                    formatter: `今\n${todayTotal}`,
                     color: '#fff',
                     fontWeight: 'bold',
                     fontSize: 10,
@@ -2460,10 +2892,42 @@
         
         var tabs = wrap.querySelectorAll('.hot-tabs .btn');
         var panes = ['#tab-interact','#tab-comment','#tab-spread','#tab-fans'];
-        var idx = 0, timer=null, interval=12000;
+        var idx = 0, timer=null;
+        
+        // 重新计算轮播时间：每个分类显示60秒（30秒排名1-5 + 30秒排名6-10）
+        var interval = 60000; // 60秒 = 60000毫秒
 
         console.log('找到标签页数量:', tabs.length);
         console.log('找到面板数量:', panes.length);
+
+        // 排名组切换功能（支持所有四个分类）
+        function switchRankGroup(tabId, groupIndex) {
+          if (tabId === '#tab-interact' || tabId === '#tab-comment' || tabId === '#tab-spread' || tabId === '#tab-fans') {
+            var groups = document.querySelectorAll(tabId + ' .rank-group');
+            groups.forEach(function(group, index) {
+              if (index === groupIndex) {
+                group.style.display = 'flex';
+                group.style.opacity = '1';
+              } else {
+                group.style.display = 'none';
+                group.style.opacity = '0';
+              }
+            });
+          }
+        }
+
+        // 排名组自动切换功能（支持高互动和高评论）
+        function startRankGroupSwitch(tabId) {
+          var currentGroup = 0; // 0: 排名1-5, 1: 排名6-10
+          var rankSwitchTimer = setInterval(function() {
+            currentGroup = (currentGroup + 1) % 2;
+            switchRankGroup(tabId, currentGroup);
+            var tabName = tabId === '#tab-interact' ? '高互动' : '高评论';
+            console.log(tabName + '排名组切换到:', currentGroup === 0 ? '排名1-5' : '排名6-10');
+          }, 30000); // 30秒切换一次排名组
+          
+          return rankSwitchTimer;
+        }
 
         function showPane(i){
           idx = (i+panes.length)%panes.length;
@@ -2487,6 +2951,23 @@
                 pane.style.display = 'block'; 
                 pane.style.opacity = '1';
                 console.log('显示面板:', sel);
+                
+                // 如果是支持排名组切换的标签页，启动排名组切换
+                if(sel === '#tab-interact' || sel === '#tab-comment' || sel === '#tab-spread' || sel === '#tab-fans'){
+                  // 重置为显示排名1-5
+                  switchRankGroup(sel, 0);
+                  // 启动排名组自动切换
+                  if (window.rankGroupSwitchTimer) {
+                    clearInterval(window.rankGroupSwitchTimer);
+                  }
+                  window.rankGroupSwitchTimer = startRankGroupSwitch(sel);
+                } else {
+                  // 其他标签页停止排名组切换
+                  if (window.rankGroupSwitchTimer) {
+                    clearInterval(window.rankGroupSwitchTimer);
+                    window.rankGroupSwitchTimer = null;
+                  }
+                }
                 
                 // 如果是高扩散标签页，初始化关系图
                 if(sel === '#tab-spread'){
@@ -2548,6 +3029,7 @@
         start();
         
         console.log('高热信息模块自动轮播已启动，轮播间隔:', interval, 'ms');
+        console.log('所有四个分类：每30秒切换排名组，每个分类总显示时间60秒');
         
         // 添加轮播状态指示器
         var statusIndicator = document.createElement('div');
@@ -2560,12 +3042,6 @@
         var style = document.createElement('style');
         style.textContent = '@keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }';
         document.head.appendChild(style);
-        
-        // 测试轮播功能
-        setTimeout(function() {
-          console.log('测试轮播功能 - 3秒后切换到下一个标签页');
-          showPane(1);
-        }, 3000);
       });
     })();
     
