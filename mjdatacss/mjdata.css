@@ -332,7 +332,7 @@
     
     @keyframes scrollTimeline {
       0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
+      100% { transform: translateX(-33.33%); }
     }
     
     /* 新增主要信息模块样式 */
@@ -818,6 +818,97 @@
       text-overflow: ellipsis;
     }
     
+    /* 媒体名称和标签的两行显示样式 */
+    .src .media-name {
+      color: #111;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 2px;
+    }
+    
+    .src .media-tag {
+      color: #555;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    
+    /* 卡片序号样式 */
+    .card-number {
+      color: #FF6F00;
+      font-weight: 700;
+      font-size: 16px;
+      margin-left: auto;
+      padding-left: 8px;
+      flex-shrink: 0;
+    }
+    
+    /* 卡片反转动画样式 */
+    .flip-container {
+      perspective: 1000px;
+      -webkit-perspective: 1000px;
+      width: 100%;
+      height: 100px; /* 与原始rank-card高度保持一致 */
+      position: relative;
+    }
+    
+    .flipper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.8s;
+      -webkit-transition: -webkit-transform 0.8s;
+      transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+    }
+    
+    .flip-container.flipped .flipper {
+      transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+    }
+    
+    .rank-card-front,
+    .rank-card-back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      background: white;
+      border-radius: 10px; /* 与原始rank-card保持一致 */
+      padding: 8px; /* 与原始rank-card保持一致 */
+      box-shadow: 0 2px 6px rgba(246,171,0,.35); /* 与原始rank-card保持一致 */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .rank-card-back {
+      transform: rotateY(180deg);
+      -webkit-transform: rotateY(180deg);
+    }
+    
+    /* 确保反转容器内的内容正确显示 */
+    .flip-container .rank-card-front,
+    .flip-container .rank-card-back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    
+    /* 覆盖原始rank-card样式，避免冲突 */
+    .flip-container.rank-card,
+    .rank-card.flip-container {
+      background: transparent;
+      box-shadow: none;
+      padding: 0;
+    }
+    
     .src small{
       display:block; 
       color:#555; 
@@ -1008,6 +1099,16 @@
     }
     
     .tab-pane:not(.show) {
+      opacity: 0;
+    }
+    
+    /* 排名组切换动画 */
+    .rank-group {
+      transition: opacity 0.5s ease-in-out;
+      opacity: 1;
+    }
+    
+    .rank-group[style*="display: none"] {
       opacity: 0;
     }
     
